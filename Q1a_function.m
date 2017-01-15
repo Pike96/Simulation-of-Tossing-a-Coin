@@ -2,7 +2,7 @@ function [f]= Q1a_function(E)
 
 N=50;       % N is the times of the events
 X=[];       % X shows all the tossing results in one experiment
-Y=[];       % Y shows head times for all experiment
+Y=[];       % Y shows head times for all experiments
 
 for j=1:E
     for i=1:N
