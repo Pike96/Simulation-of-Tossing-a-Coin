@@ -1,12 +1,6 @@
 function [f]= Q1a_function(E)
 
 N=50;       % N is the times of the events
-t=0;        % t records the results of last toss, 1 for head, -1 for tail
-
-R=1;        % R is the longest run of head
-r=1;        % r is the temporary run of head
-% Set to 1 because R and r should count the previous toss
-
 X=[];       % X shows all the tossing results in one experiment
 Y=[];       % Y shows head times for all experiment
 
