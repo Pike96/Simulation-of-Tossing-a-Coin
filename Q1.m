@@ -4,7 +4,7 @@ R=0;                % R is the longest run of heads
 r=0;                % r is the temporary run of heads
 X=rand(1,N);        % X show all the tossing results
 for i=1:N
-    if X(i)>0.5     % head
+    if X(i)<0.5     % head
         r=r+1;
         if r>R     % if the current run is the longest
             R=R+1;
