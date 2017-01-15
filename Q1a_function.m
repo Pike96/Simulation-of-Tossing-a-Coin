@@ -1,6 +1,4 @@
-%function [f]= Q1a(E)
-clear;
-E=20;
+function [f]= Q1a_function(E)
 
 N=50;       % N is the times of the events
 t=0;        % t records the results of last toss, 1 for head, -1 for tail
@@ -24,6 +22,6 @@ for j=1:E
     X=[];
 end
 
-hist(Y)
-xlabel('Number of heads in 50 flips')
-ylabel('Times')
+f=Y;
+
+end
