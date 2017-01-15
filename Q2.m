@@ -1,10 +1,10 @@
 clear;
 N=200;       % N is the times of the events
-t=0;        % t records the results of last toss, 1 for head, -1 for tail
+t=1;        % t records the results of last toss, 1 for head, -1 for tail
+% Set to 1 because the first one should be count
 
-R=1;        % R is the longest run of heads
-r=1;        % r is the temporary run of heads
-% Set to 1 because R and r should count the previous toss
+R=0;        % R is the longest run of heads
+r=0;        % r is the temporary run of heads
 
 X=[];       % X show all the tossing results
 for i=1:N
