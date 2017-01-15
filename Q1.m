@@ -1,18 +1,18 @@
 clear;
-N=10;       % N is the times of the events
-R=0;        % R is the longest run of heads
-r=0;        % r is the temporary run of heads
-X=[];       % X show all the tossing results
+N=50;               % N is the times of the events
+R=0;                % R is the longest run of heads
+r=0;                % r is the temporary run of heads
+X=rand(1,N);        % X show all the tossing results
 for i=1:N
-    if rand>0.5     % head
+    if X(i)>0.5     % head
         r=r+1;
         if r>R     % if the current run is the longest
             R=R+1;
         end
-        X=[X 1];
+        X(i)=1;
     else            % tail
         r=0;        % clear the temporary run of heads
-        X=[X 0];
+        X(i)=0;
     end
 end
 disp(['The number of head is: ',num2str(sum(X))]);
