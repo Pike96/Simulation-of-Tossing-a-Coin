@@ -6,7 +6,7 @@ Y=[];       % Y shows head times for all experiments
 
 for j=1:E
     for i=1:N
-        if rand<0.5     % head
+        if rand>0.5     % head
             X=[X 1];
         else            % tail
             X=[X 0];
