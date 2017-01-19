@@ -34,9 +34,7 @@ Simulate tossing a fair coin and count the number of tosses until reaching a use
 ## Explanation
 
 **I.**
-Q1a_function.m is a function of Q1a.
-
-Q1a.m is the main file.
+Q1a_function.m is a function of Q1a. Q1a.m is the main file.
 
 **II.**
 All the codes were written by Yucheng Lin in Los Angeles
