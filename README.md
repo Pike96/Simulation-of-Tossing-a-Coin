@@ -21,7 +21,7 @@ Repeat the above experiment 20, 100, 200, and 1000 times. Generate a histogram f
 
 **Quesiont 2**
 
-Simulate tossing a biased coin 200 times where ܲሾHEADሿ ൌ 0.80. Count the number of heads. Record the longest run of heads. Generate a histogram for the Bernoulli outcomes.
+Simulate tossing a biased coin 200 times where ܲP[HEAD]=0.80. Count the number of heads. Record the longest run of heads. Generate a histogram for the Bernoulli outcomes.
 
 **Quesiont 3**
 
