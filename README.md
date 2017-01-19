@@ -1,9 +1,13 @@
 # Simulation-of-Tossing-a-Coin
 
 Project #1 - Coin Flips
+
 EE 511: Spring 2017
+
 Yucheng Lin
+
 USC ID: 8680106861
+
 
 ## Questions
 
